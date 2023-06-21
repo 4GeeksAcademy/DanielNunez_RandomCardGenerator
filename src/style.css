@@ -1,1 +1,59 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.randomCard {
+  /* margin-top: 5px; */
+  width: 300px;
+  height: 500px;
+  background-color: white;
+  position: relative;
+  /* font-size: 30px; */
+  /* text-align: center; */
+}
+
+#title1 {
+  color: white;
+  text-align: center;
+}
+
+#cardButton {
+  margin-top: 10px;
+}
+
+.symbols {
+  position: absolute;
+  font-size: 48px;
+}
+
+.upperSymbol {
+  /* top: 0;
+  left: 0; */
+  text-align: left;
+  margin-left: 15px;
+  font-size: 56px;
+}
+
+.lowerSymbol {
+  /* bottom: 0;
+  right: 0; */
+  margin-top: 280px;
+  margin-left: 250px;
+  font-size: 56px;
+}
+
+.numbers {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+  font-weight: bold;
+}
